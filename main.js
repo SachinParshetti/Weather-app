@@ -34,29 +34,29 @@ document.addEventListener("DOMContentLoaded",function(){
            var bg = document.getElementById('container')
             if (sky === 'clouds')
            {  
-            bg.style.backgroundImage ="url('Public/Images/cloudy2.jpg')";
+            bg.style.backgroundImage ="url('public/Images/cloudy2.jpg')";
 
            }
            else if ( sky === 'clear')
            {
-            bg.style.backgroundImage ="url('Public/Images/clear-sky.jpg')"; 
+            bg.style.backgroundImage ="url('public/Images/clear-sky.jpg')"; 
             
            }
            else if (sky === 'rain')
           {
-            bg.style.backgroundImage ="url('Public/Images/rainey-sky.jpg')"; 
+            bg.style.backgroundImage ="url('public/Images/rainey-sky.jpg')"; 
           }
 
           else if (sky === 'haze')
           {
-            bg.style.backgroundImage ="url('Public/Images/haze.jpg')";
+            bg.style.backgroundImage ="url('public/Images/haze.jpg')";
           }
           else if (sky === 'smoke')
           {
-             bg.style.backgroundImage = "url('Public/Images/smokey-sky.jpg')";
+             bg.style.backgroundImage = "url('public/Images/smokey-sky.jpg')";
           }
           else{
-            bg.style.backgroundImage = "url('Public/Images/clear-sky2.jpg')"
+            bg.style.backgroundImage = "url('public/Images/clear-sky2.jpg')"
           }
         }
 
