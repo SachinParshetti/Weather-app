@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded",function(){
             }
             else {
                 msg.innerHTML = "<span class='fs-3 text-white'> <i class='bi bi-brightness-low-fill fs-2 '></i> Good Evening !</span>";
-                document.getElementById('icons').className = 'bi bi-brightness-low text-dark';
+              //  document.getElementById('icons').className = 'bi bi-brightness-low text-dark';
 
             }
         }
