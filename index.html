@@ -1,0 +1,78 @@
+<!-- Weather All with chnaging backgroud -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+    <script src="main.js"> </script>
+
+</head>
+
+<body style="height: 100vh;">
+    <div class=" d-block justify-content-center align-item-center container-fluid overflow-auto" style="text-shadow: 1px 1px 2px black;">
+        <div class="d-flex justify-content-center mt-4">
+            <div class="input-group " style="width: 59%;">
+                <select name="" id="frequentcities" class="input-group-text" style="width: 100px;">
+                    <option value="">Select Cities</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="pune">Pune</option>
+                </select>
+                <input type="text" placeholder="Enter City Name" class="form-control" id="search">
+                <button class="btn btn-outline-secondary bi bi-search" id="btn-Search"></button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center container-fluid">
+            <div class="container-fluid  rounded row" style=" height: 430px; width: 60%; background-color: rgb(34, 165, 247);" id="container">
+                <div class="col flex-wrap">
+                    <div id="greetings" class="" style="width: 100%; height: 30%;">
+                        <div id="time"></div>
+                        <div id="date" class="my-1"></div>
+                        <span id="msg"></span>
+                    </div>
+                    <div id="Temp" class="" style="width: 100%; height: 40%; overflow: auto; font-size: 20px;">
+
+                    </div>
+
+                    <div class="row  mt-2 " style="height: 70px; ">
+                        <div class="col  d-flex align-items-end text-center" id="tempMax"></div>
+                        <div class="col  d-flex align-items-end text-center" id="tempMin"></div>
+                    </div>
+
+                </div>
+                <div class="col ">
+                    <div class=" mt-5 d-flex justify-content-between pb-3 text-center  border-bottom" style="height: 15%; width: 100%;" id="">
+                        <div id="feelslike" class="pb-5"></div>
+                        <div id="description" class="pb-5"></div>
+                    </div>
+
+                    <div class=" mt-4 d-flex justify-content-around my-3 text-center" style="height: 15%; width: 100%;"id="">
+                        <div id="humidity"></div>
+                        <div id="visibility"></div>
+                    </div>
+
+                    <div class=" mt-1 d-flex justify-content-around text-center" style="height: 15%; width: 100%;" id="">
+                        <div id="wind"></div>
+                        <div id="pressure"></div>
+
+                    </div>
+                    <div class="row  " style="height: 110px; font-size: 20px;">
+                        <div class="col  d-flex align-items-end text-center" id="sealevel"></div>
+                        <div class="col  d-flex align-items-end text-center ms-5" id="groundlevel"></div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+
+</html>
